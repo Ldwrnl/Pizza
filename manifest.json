@@ -1,0 +1,10 @@
+{
+  "name": "Pizzatimer",
+  "short_name": "Pizzatimer",
+  "theme_color": "brown",
+  "background_color": "brown",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/"
+}
