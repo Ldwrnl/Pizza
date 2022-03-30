@@ -11,6 +11,9 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying'
+                npm install -- global surge
+                surge --project ./public --domain https://besterpizzatimerever.surge.sh/
+                
             }
         }
         stage('Test') {
