@@ -5,6 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building'
+                npm install
                 git 'https://github.com/Ldwrnl/Pizza'
             }
         }
