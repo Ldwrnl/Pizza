@@ -5,8 +5,9 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building'
-                npm install
                 git 'https://github.com/Ldwrnl/Pizza'
+                git install
+                git clone 'https://github.com/Ldwrnl/Pizza'
             }
         }
         stage('Deploy') {
